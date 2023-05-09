@@ -48,7 +48,7 @@ class CdkWafv2BasicAuthStack(Stack):
                                                 type='NONE'
                                             )
                                         ],
-                                        # コマンドライン等で作成したusername:password
+                                        # コマンドライン等で作成したusername:passwordのBase64Encode
                                         search_string='Basic dGVzdDp0ZXN0Cg==',
                                     ),
                             ),
